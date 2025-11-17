@@ -1,0 +1,24 @@
+name: counter_todo_app
+description: Project 1 - Flutter basics with Counter & Todo app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # TODO: Add these dependencies when implementing Todo features
+  # shared_preferences: ^2.2.2  # For data persistence
+  # uuid: ^4.3.3  # For generating unique IDs
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
